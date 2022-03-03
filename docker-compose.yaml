@@ -19,9 +19,9 @@ services:
     ports:
      - 3306:3306
     environment:
-     - MYSQL_ROOT_PASSWORD=debezium
-     - MYSQL_USER=mysqluser
-     - MYSQL_PASSWORD=mysqlpw
+     - MYSQL_ROOT_PASSWORD=yourrootpassword
+     - MYSQL_USER=newuser
+     - MYSQL_PASSWORD=yourpassword
   connect:
     image: debezium/connect:latest
     ports:
